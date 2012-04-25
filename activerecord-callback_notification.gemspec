@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "activerecord-callback_notification"
-  s.version = "0.0.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joshua Szmajda"]
@@ -14,19 +14,22 @@ Gem::Specification.new do |s|
   s.email = "josh@optoro.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "activerecord-callback_notification.gemspec",
     "lib/activerecord-callback_notification.rb",
     "spec/activerecord-callback_notification_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "test.db"
   ]
   s.homepage = "http://github.com/optoro/activerecord-callback_notification"
   s.licenses = ["MIT"]
