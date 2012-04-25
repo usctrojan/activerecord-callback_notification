@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "activerecord-callback_notification"
-  gem.homepage = "http://github.com/joshsz/activerecord-callback_notification"
+  gem.homepage = "http://github.com/optoro/activerecord-callback_notification"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Instruments all activerecord objects with notifications around callbacks}
+  gem.description = %Q{Instruments all activerecord objects with notifications around callbacks}
   gem.email = "josh@optoro.com"
   gem.authors = ["Joshua Szmajda"]
   # dependencies defined in Gemfile
