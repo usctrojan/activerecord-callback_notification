@@ -5,6 +5,7 @@ ActiveSupport::Notification for each normal ActiveRecord callback.
 
 ## Usage
 
+    require 'activerecord-callback_notifications'
     ActiveRecord::Base.notify_callbacks!
 
 will setup notifications on all ActiveRecord models. You can also use
